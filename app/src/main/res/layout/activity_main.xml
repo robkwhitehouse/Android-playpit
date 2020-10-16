@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_gravity="fill_vertical"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Panel"
+        android:textSize="30sp"
+        android:background="@drawable/view_border"
+        tools:text="Top Panel" />
+    <TextView
+        android:id="@+id/middle_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Middle Panel"
+        android:textSize="30sp"
+        android:background="@drawable/view_border"
+        tools:text="Middle Panel" />
+
+    <TextView
+        android:id="@+id/bottom_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bottom Panel"
+        android:textSize="30sp"
+        android:background="@drawable/view_border"
+        tools:text="Bottom Panel" />
+</androidx.appcompat.widget.LinearLayoutCompat>
